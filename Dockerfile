@@ -21,7 +21,7 @@ RUN apk --no-cache add perl wget xz tar fontconfig-dev ghostscript gnuplot && \
     /tmp/install-tl-unx/install-tl \
       --profile=/tmp/install-tl-unx/texlive.profile && \
     tlmgr install \
-      collection-basic collection-latex collection-luatex collection-mathscience collection-pictures \
+      collection-basic collection-latex collection-luatex collection-mathscience collection-pictures collection-fontutils \
       collection-latexrecommended collection-latexextra \
       collection-fontsrecommended collection-langjapanese latexmk && \
     ( tlmgr install xetex || exit 0 ) && \
