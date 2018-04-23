@@ -5,7 +5,7 @@
 
 FROM frolvlad/alpine-glibc
 
-MAINTAINER 3846masa
+MAINTAINER lafr4nc3
 
 ENV PATH /usr/local/texlive/2017/bin/x86_64-linux:$PATH
 
